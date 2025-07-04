@@ -15,3 +15,26 @@ console.log(typeof null)  //object
 console.log(typeof age)
 console.log(typeof undefined)
 
+// conversion
+
+let score ="33abc"
+console.log(typeof score)
+let valueInNumber = Number(score)
+console.log(typeof valueInNumber)
+console.log(valueInNumber)
+
+// Conversion on Boolean
+
+let Data = 1
+let NewData = Boolean(Data)
+console.log(NewData)
+
+let Data1 = ""
+let NewData1 = Boolean(Data1)
+console.log(NewData1)
+
+let Name1 = "Snehal"
+let NewName = Boolean(Name1)
+console.log(NewName)
+
+
