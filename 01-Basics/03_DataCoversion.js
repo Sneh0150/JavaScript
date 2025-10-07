@@ -45,3 +45,30 @@ console.log(typeof score3)               //undefined
 let ValueInNumber3 = Number(score3)
 console.log(typeof ValueInNumber3)      //number
 console.log(ValueInNumber3)             // NaN
+
+//Case 5 lets try to conver into Boolean
+
+let isloggedIn = 1
+let booleanIsloggedIn = Boolean(isloggedIn)
+console.log(typeof booleanIsloggedIn)    //boolean
+console.log(booleanIsloggedIn)           // True
+
+// Case 6 lets try to convert empty string
+
+let isloggedIn1 = ""
+let booleanIsloggedIn1 = Boolean(isloggedIn1)
+console.log(typeof booleanIsloggedIn1)    //boolean
+console.log(booleanIsloggedIn1)           // False  When empty string then value is False 
+                                          // When there is some value its shows True
+ 
+// String convert into boolean value is there then True
+// Empty String Converted into Boolean then value is shown False.
+
+
+// Case7 Lets convert into string 
+
+let variableToString = 33
+let NumberToString = String(variableToString)
+console.log(typeof NumberToString)
+console.log(NumberToString)
+                                          
